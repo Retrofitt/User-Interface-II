@@ -1,1 +1,216 @@
 /* Add CSS styling here */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+body{
+    font-family: 'Bebas Neue', serif;
+    background-color: #101010;
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    background-color: #080808;
+    width: 100vw;
+    padding-right: 2vw;
+    padding-left: 2vw;
+    color:#e0e0e0;
+}
+
+
+/* Header ends*/
+
+
+.name{
+    display:flex;
+    flex-grow: 1;
+    font-size: 3em;
+}
+
+.headerNav{
+    display: flex;
+    flex-grow: 1;
+    justify-content: flex-end;
+    padding-right: 3vw;
+}
+
+nav.headerNav a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5vh 4vw;
+    color: #e0e0e0;   
+    transition: .3s;
+}
+
+nav.headerNav a:hover{
+    background-color: #101010;
+}
+
+
+/*Header Ends*/
+
+
+.sectionOne{
+    margin-top: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainTileBackground{
+    display: flex;
+    background: url(https://i.picsum.photos/id/1060/5598/3732.jpg?hmac=31kU0jp5ejnPTdEt-8tAXU5sE-buU-y1W1qk_BsiUC8);
+    background-size: contain;
+    height: 533px;
+    width: 800px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 1%;
+}
+
+.sectionOne p{
+    color: #e0e0e0;
+    font-size: 4em;
+    text-shadow: 2px 2px black;
+}
+
+.sectionOne a{
+    padding: .5vh .4vw;
+    color: #e0e0e0;
+    text-shadow: 1px 1px black;
+    letter-spacing: .1vw;
+    word-spacing: .2vw;
+    background-color: rgba(8, 8, 8, .5);
+    border-radius: 5%;
+    transition: .3s;
+}
+
+.sectionOne a:hover{
+    opacity: 100%;
+    background-color: #101010;
+}
+
+/*Section Two*/
+
+
+.sectionTwo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 12vh;
+    
+}
+
+.sectionTwo a{
+    color: #c0c0c0;
+}
+.tileBackground{
+    height: 224px;
+    width: 337px;
+    margin: 4vh;
+    border-radius: 1%;
+}
+
+.tileTitle{
+    display: flex;
+    position: relative;
+    top: 23vh;
+    justify-content: center;
+
+}
+
+.tileBackground:first-child{
+    background: url(https://i.picsum.photos/id/1020/4288/2848.jpg?hmac=Jo3ofatg0fee3HGOliAIIkcg4KGXC8UOTO1dm5qIIPc);
+    background-size: contain;
+}
+
+.tileBackground:nth-child(2){
+    background: url(https://i.picsum.photos/id/1079/4496/3000.jpg?hmac=G-dJcpU08vEMqjUz2rb3IxjOG99rcePqW9BF1IsPLf0);
+    background-size: contain;
+}
+
+.tileBackground:nth-child(3){
+    background: url(https://i.picsum.photos/id/1052/4000/2667.jpg?hmac=VG0SPn0166Vw0hWeiJL4uVFbjGRcHnddwL4u0wpqL8Y);
+    background-size: contain;
+}
+
+.tileBackground:nth-child(4){
+    background: url(https://i.picsum.photos/id/1082/5416/3611.jpg?hmac=GrASx5oGYbTwT4xyJDYkurgXFFfgj37WHvaJNe8Sr1E);
+    background-size: contain;
+}
+
+.tileBackground:nth-child(5){
+    background: url(https://i.picsum.photos/id/1064/4236/2819.jpg?hmac=YygzDG22SIIGfbbuoV45bKoBIUguEtto0Jw_YdPDGyY);
+    background-size: contain;
+}
+
+.tileBackground:last-child{
+    background: url(https://i.picsum.photos/id/1077/3000/1995.jpg?hmac=gx_KF_cdQtv7ilOSaN8YEsNKkhcwRQ507UB7qZ4RutI);
+    background-size: contain;
+}
+
+/*footer*/
+
+
+footer{
+    display: flex;
+    background-color: #080808;
+    width: 100vw;
+    padding-right: 2vw;
+    padding-left: 2vw;
+    color: white;
+
+}
+nav.footerNav a{
+    display: flex;
+    padding: 1.5vh 4vw;
+    color: #e0e0e0;
+    transition: .3s;
+}
+
+nav.footerNav a:hover{
+    background-color: #101010;
+
+}
+
+.socialsNav{
+    display: flex;
+    flex-grow: 1;
+    justify-content: flex-end;
+    padding-right: 3vw;
+}
+
+.socialsNav a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5vh 4vw;
+    color: #e0e0e0;   
+    transition: .3s;
+}
+
+.socialsNav a:hover{
+    background-color: #101010;
+}
