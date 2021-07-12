@@ -19,6 +19,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 body{
+    display: f;
     font-family: 'Bebas Neue', serif;
     background-color: #101010;
 }
@@ -26,7 +27,7 @@ body{
 a{
     text-decoration: none;
 }
-/*  header starts  */
+
 header{
     display: flex;
     background-color: #080808;
@@ -57,8 +58,7 @@ nav.headerNav a{
     color: #e0e0e0;   
     transition: .3s;
 }
-
-nav.headerNav a:nth-child(2){
+nav.headerNav a:nth-child(4){
     background-color: #101010;
 }
 
@@ -68,29 +68,6 @@ nav.headerNav a:hover{
 
 
 /*Header Ends*/
-
-
-
-main{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20vh 20vw;
-    color:#e0e0e0;
-    letter-spacing: .32em;
-    word-spacing: .5em;
-}
-
-
-main p{
-    text-align: center;
-    
-}
-
-main span{
-    color: red;
-    font-size: 1.1em;
-}
 
 
 

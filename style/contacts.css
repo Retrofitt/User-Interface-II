@@ -26,7 +26,7 @@ body{
 a{
     text-decoration: none;
 }
-/*  header starts  */
+
 header{
     display: flex;
     background-color: #080808;
@@ -58,7 +58,7 @@ nav.headerNav a{
     transition: .3s;
 }
 
-nav.headerNav a:nth-child(2){
+nav.headerNav a:nth-child(3){
     background-color: #101010;
 }
 
@@ -71,26 +71,46 @@ nav.headerNav a:hover{
 
 
 
-main{
+/*footer*/
+
+
+footer{
+    display: flex;
+    position: relative;
+    bottom: 0;
+    background-color: #080808;
+    width: 100vw;
+    color: white;
+    align-items: flex-end;
+
+}
+nav.footerNav a{
+    display: flex;
+    padding: 1.5vh 4vw;
+    color: #e0e0e0;
+    transition: .3s;
+}
+
+nav.footerNav a:hover{
+    background-color: #101010;
+
+}
+
+.socialsNav{
+    display: flex;
+    flex-grow: 1;
+    justify-content: flex-end;
+}
+
+.socialsNav a{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20vh 20vw;
-    color:#e0e0e0;
-    letter-spacing: .32em;
-    word-spacing: .5em;
+    padding: 1.5vh 4vw;
+    color: #e0e0e0;   
+    transition: .3s;
 }
 
-
-main p{
-    text-align: center;
-    
+.socialsNav a:hover{
+    background-color: #101010;
 }
-
-main span{
-    color: red;
-    font-size: 1.1em;
-}
-
-
-
